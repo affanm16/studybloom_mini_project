@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color:#EEF6FC;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+.search-bar{
+    display: flex;
+    background-color:#FFFFFF;
+    width: 450px;
+    height: 40px;
+    border-radius: 19px;
+    border-left: none;
+    /* justify-content: space-evenly; */
+    margin-left: 180px;
+}
+.search-icon{
+    
+    width: 50px;
+    height: 40px;
+    border-top-left-radius: 19px;
+    border-bottom-left-radius: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-size: 1.2rem;
+    background-color: #FFFFFF;
+}
+.search-input{
+    width: 100%;
+    border-top-right-radius: 19px;
+    border-bottom-right-radius: 19px;
+    border: none;
+    outline: none;
+}
+.icons{
+    display: flex;
+    height: 40px;
+    width: 300px;
+    background-color: #EEF6FC;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 270px;
+}
+.icon1{
+    height: 40px;
+    width: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+
+
+}
+.icon2{
+    height: 40px;
+    width: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background-color:#FFFFFF;
+    
+}
+.icon3{
+    height: 40px;
+    width: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background-color:#FFFFFF;
+}
+.container {
+    width: 100vw;
+    height: 1200px;
+    background-color: #EEF6FC;
+}
+footer{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden;
+}
+.contact{
+    width: 100vw;
+    height: 210px;
+    background-color: #FFFFFF;
+    margin-left: 20px;
+
+}
+.seniors{
+    width: 1100px;
+    height: 150px;
+    margin-left: 65px;
+    display: flex;
+    justify-content: space-evenly;
+    
+   
+}
+.heading{
+    color: black;
+    margin-left: 112px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.senior1{
+    width: 300px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    border-left: 2px solid black;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: white;
+}
+
+
+.senior2{
+    width: 300px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    border-left: 2px solid black;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: white;
+}
+
+.senior3{
+    width: 300px;
+    display: flex;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    border-left: 2px solid black;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: white;
+}
+
+
+/* for senior1 */
+.profile1{
+    height: 130px;
+    width: 150px;
+}
+.details1{
+    width: 150px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.picture1{
+    margin-top: 35px;
+    font-size: 3rem;
+    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name1{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+/* for senior 2 */
+.profile2{
+    height: 130px;
+    width: 150px;
+}
+.details2{
+    width: 150px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.picture2{
+    margin-top: 35px;
+    font-size: 3rem;
+    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name2{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+/* for senior3 */
+.profile3{
+    height: 130px;
+    width: 150px;
+}
+.details3{
+    width: 150px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.picture3{
+    margin-top: 35px;
+    font-size: 3rem;
+    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name3{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+
+.chart1{
+   width: 400px; 
+}

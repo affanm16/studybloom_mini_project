@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDYBLOOM</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+       <div class="navbar">
+        <div class="search-bar">
+            <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <input type="text" placeholder="Search Something..." class="search-input">
+        </div>
+        <div class="icons">
+            <div class="icon1">
+                <i class="fa-solid fa-arrow-up-from-bracket"></i>
+            </div>
+            <div class="icon2">
+                <i class="fa-regular fa-circle-question"></i>
+            </div>
+            <div class="icon3">
+                <i class="fa-solid fa-bell"></i>
+            </div>
+        </div>
+       </div>
+    </header>
+    <div class="container">
+        <canvas id="chart1"></canvas>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+        <div>
+            <canvas id="myChart1"></canvas>
+        </div>
+          
+          <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+          
+          <script>
+            const ctx = document.getElementById('chart1');
+          
+            new Chart(ctx, {
+              type: 'bar',
+              data: {
+                labels: ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI','SAT'],
+                datasets: [{
+                  label: 'Progress in past 7 days',
+                  data: [1, 4, 2, 3, 6, 7,8],
+                  borderWidth: 1
+                }]
+              },
+              options: {
+                scales: {
+                  y: {
+                    beginAtZero: true
+                  }
+                }
+              }
+            });
+          </script>
+          <script>
+            const data = {
+  labels: [
+    'Red',
+    'Blue',
+    'Yellow'
+  ],
+  datasets: [{
+    label: 'My First Dataset',
+    data: [300, 50, 100],
+    backgroundColor: [
+      'rgb(255, 99, 132)',
+      'rgb(54, 162, 235)',
+      'rgb(255, 205, 86)'
+    ],
+    hoverOffset: 4
+  }]
+};
+          </script>
+    </div>
+    <footer>
+        <div class="contact">
+            <div class="heading">
+                <p>CONTACT US</p>
+            </div>
+            <div class="seniors">
+                <div class="senior1">
+                    <div class="profile1">
+                        <div class="name1">Mubashir Nesar</div>
+                        <div class="picture1">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </div>
+                    </div>
+                    <div class="details1">Description Achievement of Mubashir</div>
+                </div>
+                <div class="senior2">
+                    <div class="profile2">
+                        <div class="name2">Imtiyaz Ali</div>
+                        <div class="picture2">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </div>
+                    </div>
+                    <div class="details2">Description Achievement of Imtiyaz</div>
+                </div>
+                <div class="senior3">
+                    <div class="profile3">
+                        <div class="name3">Mohd Affan</div>
+                        <div class="picture3">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </div>
+                    </div>
+                    <div class="details3">Description Achievement of Affan</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
